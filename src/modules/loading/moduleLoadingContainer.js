@@ -32,12 +32,6 @@ class Loading extends Component {
       );
     } else {
       var logIndex = this.props.loading.statusLog.length - 1;
-      console.log(
-        "statusLog",
-        logIndex,
-        this.props.loading.statusLog[logIndex]
-      );
-
       return (
         <View style={styles.status}>
           <Text style={styles.text}>
@@ -49,7 +43,6 @@ class Loading extends Component {
   };
 
   render = () => {
-    //return this.renderTest();
     return (
       <View style={styles.container}>
         <View style={styles.rowTop}>
@@ -77,7 +70,6 @@ const styles = StyleSheet.create({
     alignItems: "flex-start"
   },
   rowTop: {
-    //backgroundColor: "#bed731",
     justifyContent: "flex-end",
     flex: 1,
     alignItems: "center",
@@ -85,7 +77,6 @@ const styles = StyleSheet.create({
   },
   rowBottom: {
     paddingTop: 10,
-    //backgroundColor: "#f4b261",
     flex: 1,
     alignItems: "center"
   },

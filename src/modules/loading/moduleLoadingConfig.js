@@ -46,7 +46,7 @@ export const configSteps = [
 
 export const configOptions = {
   backgroundColor: "#abc900",
-  showAllLog: false, // show all lines or only the current task
+  showAllLog: true, // show all lines or only the current task
   progressIndeterminate: false, // real or infinite progression
   progressWidth: 200,
   progressHeight: 7,
